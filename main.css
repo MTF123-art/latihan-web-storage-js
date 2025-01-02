@@ -1,0 +1,46 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   width: 100%;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-bottom:2px solid black ;
+}
+
+main {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+main section {
+   margin: 10px 0;
+   border: 1px solid black;
+   border-radius: 10px;
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+main section h2 {
+   display: inline-block;
+   padding: 10px 0;
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid black;
+}
+main section form {
+   padding: 5px;
+}
+main section div div {
+   border: 1px solid black;
+   margin: 5px;
+   padding: 5px;
+}
